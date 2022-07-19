@@ -110,6 +110,10 @@ include("array-lib.jl")
 
 include("linear_algebra.jl")
 
+include("eigen.jl")
+export eigenvals
+export eigvecs
+
 using Groebner
 include("groebner_basis.jl")
 export groebner_basis
